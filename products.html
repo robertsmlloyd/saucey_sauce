@@ -1,33 +1,60 @@
-<!--tayte-->
 
 <!DOCTYPE html>
 <html lang="en">
 <head>
+	<style>
+		.column {
+			float: left;
+			width: 33.33%;
+			padding: 5px;
+		}
+
+		.row::after {
+			content: "";
+			clear: both;
+			display: table;
+		}
+	</style>
 	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="styles.css">
 	<title>Saucey Sauce&#8482;</title>
 </head>
 <body>
 	<header>
-		<h1 title= "Saucey Sauce"> <img src ="images/SSlogo.png" alt= "Saucey Sauce Logo" width="200" height="142"/> Saucey Sauce&#8482;</h1>
+		<h1 title= "Saucey Sauce">Saucey Sauce&#8482;</h1>
+	</header>
 		<nav>
-			<ul>
+			<ul id="index">
 				<li><a href="index.html">Index</a></li>
 				<li><a href="about.html">About Us</a></li>
 				<li><a href="faq.html">FAQ</a></li>
 				<li><a href="recipes.html">Recipe Ideas</a></li>
+				<li><a class="active" href="products.html">Products</a></li>
 				<li><a href="directions.html">Directions</a></li>
 			</ul>
 		</nav>
-	</header>
 <h1> Sauces for Sale </h1> 
 <h3> Original Saucey Sauce $5.99 </h3>
-<p> The orignal Saucey Sauce is the first flavor we created. This is the perfect replacement for your current honey bbq. <img src ="images/originalsauce.png" alt= "Saucey Sauce BBQ" width="200" height="200"/> </p>
+<p> The orignal Saucey Sauce is the first flavor we created. This is the perfect replacement for your current honey bbq. </p>
 <h3> Spicey Saucey Sauce $6.99 </h3>
-<p> If you like spice this is the sauce for you. This is our spiciest sauce. <img src ="images/spiceysauce.png" alt= "Spicey Sauce" width="200" height="200"/></p>
+<p> If you like spice this is the sauce for you. This is our spiciest sauce. </p>
 <h3> Garlic Saucey Sauce $8.99 </h3>
-<p> The garlic sauce is our newest flavor. This is perfect for garlic lovers. <img src ="images/garlicsauce.png" alt= "Garlic Sauce" width="200" height="200"/></p>
-<footer>Contact Information (913)-905-9657
-		<p >&copy;Copyright Joe & Tayte</p>
+<p> The garlic sauce is our newest flavor. This is perfect for garlic lovers. </p>
+<h3> Tomato Saucey Sayce $5.99 </h3>
+<p> This tomato sauce is great for many of our recipes we provide on our website. 
+Although plain, it's an amazing base for all your newest meals!</p> 
+	<div class="row">
+		<div class="column">
+			<img src="images/originalsauce.png" alt="Saucey Sauce BBQ" style="width:200px">
+		</div>
+		<div class="column">
+			 <img src="images/spiceysauce.png" alt="Spicey Sauce" style="width:200px">
+		</div>
+		<div class="column">
+			<img src="images/garlicsauce.png" alt="Garlic Sauce" style="width:200px">
+		</div>
+	</div>
+		<p >&copy;Copyright Joe & Tayte Sauces and Condiments</p>
 </footer>
 </body>
 </html>
