@@ -2,50 +2,47 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<style>
-		body {
-			text-align: left;
-			float: left;
-		}
-		h2 { 
-			text-align: center;
-			font-size: 70px;
-			font-family: Georgia;
-		 }
-		img {
-			
-			float: right;
-		 }
-	</style>
 	<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="styles.css">
-	<title>Saucey Sauce&#8482;</title>
-	
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<title> Saucey Sauce Site </title>
 </head>
 <body>
-	<header>
-		<h1 title= "Saucey Sauce">Saucey Sauce&#8482;</h1>
-	</header>
-		<nav>
-			<ul id="index">
-				<li><a class="active" href="index.html">Index</a></li>
-				<li><a href="about.html">About Us</a></li>
-				<li><a href="faq.html">FAQ</a></li>
-				<li><a href="recipes.html">Recipe Ideas</a></li>
-				<li><a href="directions.html">Directions</a></li>
-				<li><a href="products.html">Products</a></li>
 
-			</ul>
-		</nav>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">Saucey Sauce&#8482;</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav">
+      <a class="nav-item nav-link active" href="index.html">Index<span class="sr-only">(current)</span></a>
+      <a class="nav-item nav-link" href="about.html">About</a>
+      <a class="nav-item nav-link" href="faq.html">FAQ</a>
+      <a class="nav-item nav-link" href="recipes.html">Recipe Ideas</a>
+      <a class="nav-item nav-link" href="directions.html">Directions</a>
+      <a class="nav-item nav-link" href="products.html">Products</a>
+    </div>
+  </div>
+</nav>
+
 	<h2> Welcome to the Saucey Sauce Website!</h2>
 	<img src ="images/threesauce.png" alt = "Three Sauces" width="250" height="300"/>
 	<h3>As of now we have four sauces for you and your family to fight between.
 	<br>You can learn more about them in our products page!</h3>
-	<h4> &#9888; Due to the global pandemic, we are asking you to wear masks upon entering our store. &#9888;</h4>
+
+	<div class="alert alert-warning alert-dismissible fade show" role="alert">
+  	&#9888; Due to the global pandemic, we are asking you to wear masks upon entering our store. &#9888;
+  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+    <span aria-hidden="true">&times;</span>
+  </button>
+</div>
+
 	<footer>Contact Information (913)-905-9657
-		<p>&copy;Copyright Joe & Tayte Sauces and Condiments</p>
-		<!--I only added "Sauces and Condiments" to the footers so I can change it if needed,
-			I did hear something about removing any trace of personal comments and such.-->
+		&copy;Copyright Joe & Tayte Sauces and Condiments
 	</footer>
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 	</body>
 </html>
